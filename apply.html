@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>apply</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+<h1 style="text-align: center">Aspire Institute of Technology and Sciences</h1>
+  <style>
+
+    body {
+      background-image: url('applyback.jpg');
+    }
+
+  .blue-box {
+    background-color: lightblue;
+    padding: 20px 70px 20px 70px;
+  }
+
+  .btn-primary{
+    text-align: center;
+    border-radius: 12px;
+    justify-content: center;
+    display: flex;
+    align-items: right;
+    margin: 0 auto;
+    width: 150px;
+
+  }
+  .applysha{
+    box-shadow: 0 10px 20px;
+  }
+
+  form{
+    box-shadow: 10px 10px 5px grey;
+  }
+
+</style>
+
+
+
+<form>
+  
+  <div class="container  blue-box">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+
+  <div class="container  blue-box">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="exampleInputname" required>
+  </div>
+
+    <div class="container  blue-box">
+    <label for="number">Contact Number</label>
+    <input type="number" class="form-control" id="exampleInputNumber" value="contact_number" required>
+  </div>
+
+  <div class="container  blue-box">
+    <label for="ssc">SSC CGPA</label>
+    <input type="number" class="form-control" id="exampleInputNumber" value="ssc" required>
+  </div>
+
+  <div class="container  blue-box">
+    <label for="eamcet_rank">TS Eamcet Rank</label>
+    <input type="number" class="form-control" id="exampleInputNumber" value="eamcet_rank" required>
+  </div>
+  <div class="container blue-box">
+  <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+  </form> 
